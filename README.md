@@ -29,3 +29,13 @@ Commit 4: XGBoost
 3.Training and evaluating an XGBoost regression model for each target variable.
 4.Storing and printing evaluation metrics.
 5.Plotting the actual vs. predicted values for visual comparison
+
+
+Commit 5: LSTM model
+1. I have started building LSTM model after the ARIMA model
+2. The dataset was preprocessed by handling missing values with linear interpolation and normalizing the features using MinMaxScaler.
+3. Sequences of length 30 were created for time series modeling, and the data was split into training and test sets with an 80-20 ratio.
+4. An initial LSTM model with 50 units and dropout layers was built and trained for 20 epochs, yielding moderate prediction accuracy.
+5. To improve performance, a Bidirectional LSTM model with 64 units and early stopping was implemented and trained for 30 epochs.
+6. The model's performance was evaluated using RMSE, MAE, and R² scores, and results were plotted to visualize training progress and prediction accuracy.
+7. The tuned model showed improved performance, particularly for O3 and PM10, and all code, results, and visualizations are documented for further development and analysis.
