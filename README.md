@@ -22,3 +22,10 @@ Commit 3 : #ARIMA MODEL
 7. Compared original values and optimized values using bar chart
 8. Visualised the forecasted data.
 9. Interpretation from the obtained metrics
+
+Commit 4: XGBoost
+1.I have made the XGboost model and started after the EDA process done in the Arima model
+2.Defining the features and targets.
+3.Training and evaluating an XGBoost regression model for each target variable.
+4.Storing and printing evaluation metrics.
+5.Plotting the actual vs. predicted values for visual comparison
