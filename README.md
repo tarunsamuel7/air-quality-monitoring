@@ -10,3 +10,15 @@ Commit 1 : Data-preprocessinng part
 Commit 2: EDA_featureEngineering
 1. Performed EDA and visualization to check co-relation, distibution, trends
 2. feature Engineering: Added columns - AQI, AQI_Category, AQI_Numerical
+
+
+Commit 3 : #ARIMA MODEL
+1. I have started from building ARIMA model from an already done EDA part 
+2. After Building it i have forcasted the results for the next 60 days
+3. Repeated these steps for all the pollutants
+4. calculated the metrics
+5. Optimized the model for better results
+6. Obtained optimized metric results
+7. Compared original values and optimized values using bar chart
+8. Visualised the forecasted data.
+9. Interpretation from the obtained metrics
