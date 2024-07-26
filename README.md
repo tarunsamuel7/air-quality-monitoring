@@ -1,5 +1,7 @@
 # air-quality-monitoring
 
+Project Board:https://trello.com/b/n0v5yY6J/air-quality-analysis
+
 Commit 1 : Data-preprocessinng part 
 1. Checked missing values in both files
 2. Dropped unwanted columns.
