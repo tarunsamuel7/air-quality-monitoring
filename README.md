@@ -41,3 +41,8 @@ Commit 5: LSTM model
 5. To improve performance, a Bidirectional LSTM model with 64 units and early stopping was implemented and trained for 30 epochs.
 6. The model's performance was evaluated using RMSE, MAE, and R² scores, and results were plotted to visualize training progress and prediction accuracy.
 7. The tuned model showed improved performance, particularly for O3 and PM10, and all code, results, and visualizations are documented for further development and analysis.
+
+Commit 6: Data_preprocessing_EDA_FE_V2
+1. pre-processed the data by filling missing values by taking mean of upper 3 and lower 3 values.
+2. Performed EDA and visualization to check co-relation, distibution, trends
+3. feature Engineering: Added columns - AQI, AQI_Category, AQI_Numerical
