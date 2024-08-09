@@ -73,7 +73,7 @@ def categorize_aqi(aqi):
 
 # Load the CSV file into a DataFrameDataFrame
 folder_path = os.path.dirname(os.path.abspath(__file__))
-file_path = folder_path + "/LSTM_forecasted_values.csv"
+file_path = folder_path + "/ARIMA_forecasted_values.csv"
 df = pd.read_csv(file_path)
 
 # Convert the Date column to the required format (YYYY-MM-DD)
